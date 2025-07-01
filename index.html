@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador - Lógica de Programación</title>
+  <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    background-color: #f9f9fc;
+  }
+
+  h1 {
+    text-align: center;
+    color: #4B0082;
+  }
+
+  .pregunta {
+    margin-bottom: 20px;
+  }
+
+  button {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+  }
+
+  button:hover {
+    background-color: #d6d6d6;
+    transform: scale(1.01);
+  }
+
+  button.correcta {
+    background-color: #a5d6a7 !important;
+    color: #0a4a0a;
+    font-weight: bold;
+  }
+
+  button.incorrecta {
+    background-color: #ef9a9a !important;
+    color: #600000;
+    font-weight: bold;
+  }
+
+  #siguiente,
+  #anterior,
+  #terminar {
+    background-color: #673ab7;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  #siguiente:hover,
+  #anterior:hover,
+  #terminar:hover {
+    background-color: #5e35b1;
+  }
+
+  pre {
+    background: #f0f0f0;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    font-size: 15px;
+    white-space: pre-wrap;
+  }
+  #navegacion button {
+  display: inline-block;
+  width: auto;
+  min-width: 40px;
+  padding: 10px 14px;
+  margin: 4px;
+  font-size: 15px;
+  background-color: #ddd;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.1s;
+}
+
+#navegacion button:hover {
+  background-color: #bbb;
+}
+
+#navegacion button.activa {
+  background-color: #4B0082;
+  color: white;
+  font-weight: bold;
+}
+
+</style>
+
+</head>
+<body>
+<div id="navegacion" style="margin-bottom: 20px; text-align: center;"></div>
+
+  <h1>Simulador - Lógica de Programación</h1>
+  <div id="contenedor"></div>
+  <div id="resultado"></div>
+  <script src="preguntas.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
