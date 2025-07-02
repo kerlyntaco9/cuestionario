@@ -243,7 +243,152 @@ Usted no eligió ninguna opción básica
   pregunta: "¿Cuántos métodos con polimorfismo se tienen en el siguiente código?<br><br><pre>public class Futbolista extends SeleccionFutbol {\n  private int dorsal;\n  private String demarcacion;\n\n  @Override\n  public void entrenamiento() {\n    System.out.println(\"Realiza un entrenamiento (Clase Futbolista)\");\n  }\n\n  @Override\n  public void partidoFutbol() {\n    System.out.println(\"Juega un Partido (Clase Futbolista)\");\n  }\n\n  public void entrevista() {\n    System.out.println(\"Da una Entrevista\");\n  }\n}</pre>",
   opciones: ["1", "2", "3", "Ninguno"],
   respuesta: 1
+},
+
+// Bloque: Estructuras de Datos - Día 1
+{
+  pregunta: "Los árboles y grafos pertenecen a las estructuras:",
+  opciones: [
+    "Compuestas",
+    "Complejas",
+    "Espaciales",
+    "No lineales"
+  ],
+  respuesta: 3
+},
+{
+  pregunta: "Para conocer la ubicación de los elementos en una estructura enlazada, es importante considerar:",
+  opciones: [
+    "Memoria",
+    "Índice",
+    "Enlace",
+    "Puntero"
+  ],
+  respuesta: 3
+},
+{
+  pregunta: "La notación O:",
+  opciones: [
+    "Expresa una aproximación de la relación entre el tamaño de un problema y la cantidad de un proceso necesario para hacerlo.",
+    "Permite establecer el tamaño del algoritmo",
+    "Conoce la velocidad de procesamiento de un algoritmo en relación a las características del procesador.",
+    "Ninguna"
+  ],
+  respuesta: 0
+},
+{
+  pregunta: "Sort hace referencia a:",
+  opciones: [
+    "Ordenación",
+    "Búsqueda",
+    "Ordenación y búsqueda",
+    "Ordenación o clasificación"
+  ],
+  respuesta: 3
+},
+{
+  pregunta: "¿Qué técnicas fundamentales existe en la gestión de datos?",
+  opciones: [
+    "Ordenación binaria y hexadecimal",
+    "Ordenación alfabética ascendente y descendente",
+    "Ordenación de listas y ordenación de archivos",
+    "Ordenación de datos y ordenación de ficheros"
+  ],
+  respuesta: 2
+},
+
+{
+  pregunta: "Son algoritmos de ordenación:",
+  opciones: [
+    "Selección, modificación y espiral",
+    "Selección, inserción y burbuja",
+    "Selección, inserción y espiral",
+    "Selección, espiral y burbuja"
+  ],
+  respuesta: 1
+},
+{
+  pregunta: "Seleccione el algoritmo correspondiente:\n\nSe basa en la lectura sucesiva de la lista a ordenar, comparando el elemento inferior de la lista con los restantes y efectuando un intercambio de posiciones cuando el orden resultante de la comparación no sea el correcto.",
+  opciones: [
+    "Ordenación por intercambio",
+    "Ordenación por selección",
+    "Ordenación en espiral",
+    "Ordenación en burbuja"
+  ],
+  respuesta: 0
+},
+
+{
+  pregunta: "Shell también conocido como:",
+  opciones: [
+    "Ordenación por intercambio",
+    "Ordenación por selección",
+    "Ordenación en espiral",
+    "Ninguna"
+  ],
+  respuesta: 3
+},
+{
+  pregunta: "El pivote es utilizado en:",
+  opciones: [
+    "Algoritmo Shell",
+    "Algoritmo de intercambio",
+    "Algoritmo Quicksort o partición",
+    "Ninguna"
+  ],
+  respuesta: 2
+},
+{
+  pregunta: "Cuando se puede introducir y eliminar elementos por un extremo se habla de:",
+  opciones: [
+    "Array",
+    "Lista",
+    "Pila",
+    "Cola"
+  ],
+  respuesta: 2
+},
+{
+  pregunta: "El tamaño de memoria que ocupa un dato depende de:",
+  opciones: [
+    "Valor que almacene",
+    "Tipo de lenguaje de programación",
+    "Del tipo de dato",
+    "Del tipo de dato junto al tipo de operación"
+  ],
+  respuesta: 3
+},
+{
+  pregunta: "Los tipos de datos se dividen en familias de:",
+  opciones: [
+    "Datos",
+    "Información",
+    "Enteros y flotantes",
+    "Propias y genéricas"
+  ],
+  respuesta: 2
+},
+{
+  pregunta: "Escoja el enunciado que más se adapte al concepto de abstracción:",
+  opciones: [
+    "Modelo de programación",
+    "Modelo de base de datos",
+    "Modelo del sistema que incluye solamente las características esenciales.",
+    "Modelo del sistema que incluye todas las características a detalle."
+  ],
+  respuesta: 2
+},
+{
+  pregunta: "Se entiende por encapsulación a:",
+  opciones: [
+    "Una técnica de programación muy útil a la hora de crear software.",
+    "Una camisa de fuerza que obliga al programador agrupar la información.",
+    "Es la separación de la representación de datos de las aplicaciones que usan a estos datos a un nivel lógico.",
+    "Restringir del acceso de los objetos."
+  ],
+  respuesta: 2
 }
+
 
 
 
