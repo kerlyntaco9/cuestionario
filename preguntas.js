@@ -554,7 +554,134 @@ const preguntas = [
     "Connection"
   ],
   respuesta: 0
+},
+
+// Bloque: Programacion WEB
+
+
+  {
+    materia: "Programación Web",
+    pregunta: "Cuando hablamos de web 2.0 nos referimos a aplicaciones web como:",
+    opciones: [
+      "Gmail, YouTube",
+      "Google Drive, Wikipedia",
+      "Netflix, Google Docs",
+      "Páginas web estáticas y dinámicas"
+    ],
+    respuesta: 1
+  },
+
+  {
+    materia: "Programación Web",
+    pregunta: "Cuando trabajamos con JavaScript tenemos que tomar en cuenta 3 cosas esenciales:",
+    opciones: [
+      "Css, Tags, Etiquetas",
+      "Etiquetas, eventos, vistas",
+      "Componente, evento, acción",
+      "Div, controlador, función"
+    ],
+    respuesta: 2
+  },
+
+  {
+    materia: "Programación Web",
+    pregunta: "¿Cuáles son las formas de usar styles dentro de CSS?",
+    opciones: [
+      "Estilos inline, estilos emebidos, estilos externos",
+      "Markup, meta markup, estilos externos",
+      "SMIL, SOAP, SGM, XML",
+      "XML, Estilos Hytime, Estilos WNTL"
+    ],
+    respuesta: 0
+  },
+
+  {
+    materia: "Programación Web",
+    pregunta: "¿Cuál es la diferencia entre Get y Post?",
+    opciones: [
+      "Función reservada Post, Get con parámetros y sin parámetros",
+      "Post operación por la que pasamos uno o más valores, Get captura datos ingresados",
+      "Post lectura, Get escritura",
+      "Get presenta datos que se envían como parte de la URL, Post la información no se ve porque se codifica en el proceso"
+    ],
+    respuesta: 3
+  },
+
+  {
+    materia: "Programación Web",
+    pregunta: "¿Cuáles son los niveles de alcance disponibles en PHP?",
+    opciones: [
+      "Privado, publico, protegido",
+      "Publico, restringido, constract",
+      "Constract, destruct, script",
+      "Traits, unset(), unlink()"
+    ],
+    respuesta: 0
+  },
+
+
+{
+  materia: "Programación Web",
+  pregunta: "Cuáles son los componentes de un estilo básico en CSS:",
+  opciones: [
+    "Inline, emebidos, externos",
+    "Selector, propiedad, valor",
+    "Inline, emebidos, XHTML",
+    "Archivos .css"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Programación Web",
+  pregunta: "Cuál es el esquema de trabajo de Bootstrap dentro del diseño de una página web Responsive:",
+  opciones: [
+    "Grid de 12 columnas",
+    "Grid de 15 columnas",
+    "Grid de 3 columnas",
+    "Grid de 24 columnas"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Programación Web",
+  pregunta: "Cuál es la estructura por la cual debe estar enmarcada una página web estática:",
+  opciones: [
+    "Estilos, javascript, pie de página",
+    "Estilos, animaciones, formularios",
+    "Encabezado, cuerpo y pie",
+    "Encabezado, pie de página, estilos"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Programación Web",
+  pregunta: "Cuáles son las tecnologías que forman AJAX:",
+  opciones: [
+    "XHTML, CSS, DOM, XML",
+    "PHP, MYSQL, DOM",
+    "SQL, CSS, JAVSCRIPT",
+    "JAVASCRIPT, PHP Y HTML"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Programación Web",
+  pregunta: "Cuáles son los elementos que componen una estructura de código Jquery:",
+  opciones: [
+    "Selector, evento, selector, atributo",
+    "Selector, animación, focus",
+    "Focus, select, click",
+    "Hover, change, keyup"
+  ],
+  respuesta: 0
 }
+
+
+
 
 
 
