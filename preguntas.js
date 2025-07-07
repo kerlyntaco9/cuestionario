@@ -678,6 +678,117 @@ const preguntas = [
     "Hover, change, keyup"
   ],
   respuesta: 0
+},
+
+
+
+// Bloque: Ingeniería de Software
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "Cuando hablamos sobre el proceso del software mencionamos 5 etapas las cuales son:",
+  opciones: [
+    "Comunicación, planeación, modelo, construcción, despliegue",
+    "Análisis, diseño, implementación, pruebas, mantenimiento",
+    "UML, verificación, validación, concepción, usabilidad",
+    "Sprint, reuniones, validación, correcciones, pruebas"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "Cuando hablamos acerca del desarrollo de software debemos tomar en cuenta una etapa esencial en la cual se aplican instrumentos como (observación, entrevistas) esta etapa es:",
+  opciones: [
+    "Desarrollo o codificación",
+    "Pruebas",
+    "Diagramas UML",
+    "Levantamiento de requerimientos"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "¿Cuál es la desventaja de trabajar con el modelo en espiral?",
+  opciones: [
+    "Puede adaptarse y aplicarse a lo largo del ciclo de vida del software",
+    "Permite tener bajo control el proyecto",
+    "Mejora la productividad",
+    "Genera mucho tiempo en el desarrollo del software"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Ingeniería de Software",
+  pregunta: "¿Cuáles son las técnicas de validación de requerimientos?",
+  opciones: [
+    "Revisiones de requerimientos, construcción de prototipos",
+    "Localizar errores, especificación, casos de uso",
+    "Verificación informal, verificación formal",
+    "Gestión de requerimientos, casos de uso, especificación de requerimientos"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "Un requerimiento bien especificado tiene las siguientes características:",
+  opciones: [
+    "Único, corriente, consistente, comprensible, verificable",
+    "Reutilizable, ambiguo, problemático",
+    "Deseable, reutilizable, entendible",
+    "Verificable, manejable, ambiguo, problemático"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "¿Qué nos permite realizar el flujo de gestión de requerimientos?",
+  opciones: [
+    "Requerimientos funcionales y no funcionales",
+    "Verificación, validación",
+    "Calcular el costo, valor de efecto del cambio, surge con la identificación de un problema",
+    "Presupuesto, costo de cambio, investigación, recolección de datos"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "UML nos permite:",
+  opciones: [
+    "Visualizar, especificar, construir, documentar",
+    "Controlar, seguir, modelar, clarificar",
+    "Planear, controlar, construir, modelar",
+    "Vistas, diagramas, controlar, verificar"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "Cuando trabajamos con el diseño orientado a objetos tenemos un patrón de arquitectura denominado:",
+  opciones: [
+    "DFD",
+    "MVC",
+    "UML",
+    "E-R"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Ingeniería de Software",
+  pregunta: "La estructura de datos y las funciones dentro del diseño estructurado se representan por medio de diagramas:",
+  opciones: [
+    "UML, ERS, DFD",
+    "Entidades, atributos, clases",
+    "Procesos, casos de uso, almacén de datos",
+    "Entidad relación, flujo de datos, transición de datos"
+  ],
+  respuesta: 0
 }
 
 
