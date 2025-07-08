@@ -789,15 +789,130 @@ const preguntas = [
     "Entidad relación, flujo de datos, transición de datos"
   ],
   respuesta: 0
+
+},
+
+// Bloque: Programación para Móviles
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿Cuál es la principal característica de las aplicaciones hibridas?",
+  opciones: [
+    "Integración con servicios basados en la web",
+    "Aprovechan todas las capacidades de los dispositivos",
+    "Aplicaciones disponibles desde la app store",
+    "Actualizaciones constantes"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿Cuáles son las características que aprovecha Ionic dentro de los servicios de los dispositivos móviles?",
+  opciones: [
+    "Escalabilidad, usabilidad, soporte",
+    "Menos código, tiempo, escalabilidad",
+    "Conexión de red, implementa en App Store, Acceso a contactos, completo acceso a la Api del sistema operativo",
+    "Inicio rápido, performance, comunidad, documentación"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿Cuáles son los componentes o elementos de interfaz que incluye la librería de Ionic?",
+  opciones: [
+    "HTML, CSS, JavaScript, Script",
+    "Cabeceras, listados, botones, formularios, pie de pagina",
+    "ApiRest, geolocalización, fichas, formularios",
+    "Modelos, vistas, controladores"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿Para qué sirve el siguiente comando CLI ionic star <name> <template> [options]?",
+  opciones: [
+    "Crear un proyecto con el template inicial tabs",
+    "Inicia un proyecto con una interfaz de navegación",
+    "Inicia un proyecto con una app más compleja",
+    "Permite crear un proyecto nuevo"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿TypeScript admite 4 principales principios de la programación orientada a objetos?",
+  opciones: [
+    "Encapsulamiento, herencia, abstracción, polimorfismo",
+    "Clases, objetos encapsulamiento, abstracción",
+    "Generalización, composición, asociación, abstracción",
+    "Funciones, estructuras, polimorfismo, asociaciones"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿Dentro de qué carpeta se guardan todas las vistas generadas en Ionic y cuál es la extensión de los ficheros?",
+  opciones: [
+    "Home /.html",
+    "www/.js",
+    "templates/. html",
+    "resources / .js"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "Cuando hablamos de llamadas http podemos invocar cualquier método que están definidos en el Http Client y estos son:",
+  opciones: [
+    "Get (), Post ()",
+    "Get (), Post (), Put (), Delete ()",
+    "Import, export, Get (), Post ()",
+    "Constructor, @component"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "Las tarjetas (cards) se pueden personalizar de forma similar a:",
+  opciones: [
+    "Un formulario",
+    "Un elemento Bootstrap",
+    "Una tabla SQL",
+    "Como si fuera una pantalla normal"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "Los servicios y directivas librería @angular/forms del módulo ReactiveFormsModule que viene en la:",
+  opciones: [
+    "Permiten programar formularios reactivos conducidos por el código",
+    "Permiten el desarrollo de formularios",
+    "Proporcionan la solución en Angular 8 pasa por desacoplar el modelo y la vista",
+    "Ninguna de las anteriores"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Programación para Móviles",
+  pregunta: "¿Cuál es la principal ventaja que ofrecen las apps nativas con respecto a las apps hibridas?",
+  opciones: [
+    "No necesitan conexión a internet para que funcionen",
+    "Se ejecutan dentro del propio navegador web",
+    "Es posible agrupar los códigos y distribuirla en app store",
+    "Cuenta la conectividad a internet y el sistema operativo del mismo"
+  ],
+  respuesta: 3
 }
 
-
-
-
-
-
-
-
-
-
 ];
+
