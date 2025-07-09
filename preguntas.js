@@ -912,7 +912,222 @@ const preguntas = [
     "Cuenta la conectividad a internet y el sistema operativo del mismo"
   ],
   respuesta: 3
+},
+// Bloque: Base de Datos I
+
+{
+  materia: "Base de Datos I",
+  pregunta: "El conjunto de componentes o herramientas conceptuales que un SGBD proporciona para modelar recibe el nombre de:",
+  opciones: [
+    "Modelo de BD",
+    "Modelo Entidad-Relación"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "Son colecciones de datos unidos por un fin común y es una de las partes más importantes en una base de datos hablamos de:",
+  opciones: [
+    "Índices",
+    "Datos",
+    "Filas y columnas",
+    "Tablas"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "De qué forma normal hablamos si y solo si cada uno de los campos contiene un único valor para un registro determinado.",
+  opciones: [
+    "2Forma Normal",
+    "4Forma Normal",
+    "1Forma Normal",
+    "3Forma Normal"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "Cuando ejecutamos un grupo de una o varias instrucciones SQL y las mismas se almacenan en el servidor nos referimos a:",
+  opciones: [
+    "Procedimiento almacenado (Stored Procedure)",
+    "Triggers",
+    "Subconsultas",
+    "Funciones"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "Cuáles son los niveles de abstracción que se utilizan para simplificar la interacción de los usuarios con el sistema:",
+  opciones: [
+    "Nivel físico, nivel lógico, nivel conceptual",
+    "Nivel lógico, relaciones entre datos, índices",
+    "Tablas, atributos, índices",
+    "Archivos de datos, índices, diccionario de datos"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "Definir la relación que existe entre computador con los atributos marca, modelo, color, tamaño y número de placa base, y laboratorio con los atributos capacidad, # de laboratorio y responsable.",
+  opciones: [
+    "Relación (uno a uno)",
+    "Relación (uno a varios)",
+    "Relación (varios a varios)",
+    "Ninguna de las anteriores"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "Establecer el tipo de relación/cardinalidad del siguiente enunciado: Dado un proveedor queremos conocer su nombre, dirección, ciudad, provincia, así como las piezas que suministra conociéndose color, categoría, precio y cantidad.",
+  opciones: [
+    "Uno a varios",
+    "Varios a varios",
+    "Uno a uno",
+    "Ninguna de las anteriores"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Base de Datos I",
+  pregunta: "Dado el siguiente enunciado establezcan la relación existente entre las entidades que intervienen: De cada producto informático se desea guardar el código, descripción, precio y número de existencias; de cada cliente se desea guardar un código, nombre, apellido, dirección y número de teléfono; un cliente puede comprar varios productos en la tienda y un mismo producto puede ser comprado por varios clientes.",
+  opciones: [
+    "Uno a uno",
+    "Varios a varios",
+    "Uno a varios"
+  ],
+  respuesta: 1
+},
+// Bloque: Base de Datos II
+
+{
+  materia: "Base de Datos II",
+  pregunta: "¿Cuáles son los tipos de autenticación de SQL Server?",
+  opciones: [
+    "Autenticación de Windows, Autenticación SQL Server, Autenticación Azure",
+    "Autenticación de Windows, Autenticación remota, Autenticación local",
+    "Remota, Local",
+    "Remota, Local, Distribuida"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "¿Cuáles son los operadores que podemos utilizar dentro de las subconsultas?",
+  opciones: [
+    "<, >, =, <>, =>, >=",
+    "Insert, Select, Update, Delete",
+    "Any, All, Exists, In",
+    "Image, ntext, text"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "La principal característica de los procedimientos locales es:",
+  opciones: [
+    "Se almacenan en tempbd",
+    "Son solo visibles en la conexión actual del Usuario",
+    "Son visibles para cualquier usuario",
+    "Son definidos por el usuario"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "Las principales operaciones de mantenimiento que se realizan dentro de los triggers son:",
+  opciones: [
+    "DDL, DML",
+    "Select, Alter, Drop",
+    "In, On Exists, All",
+    "Insert, Delete, Update"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "Cuando aplicamos un full join obtenemos como resultado:",
+  opciones: [
+    "Devuelve todas las filas de la tabla izquierda y derecha"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "¿Qué es un servidor remoto?",
+  opciones: [
+    "Omiten la infraestructura para centrarse en la implementación",
+    "Acceso desde cualquier dispositivo con conexión a internet",
+    "Destinados a la gestión de bases de datos en SQL Server",
+    "Funcionalidad destinada a la creación y ejecución de aplicaciones"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "¿Qué es una base de datos distribuida?",
+  opciones: [
+    "Datos recíprocos que incrementan la disponibilidad",
+    "Bases de datos repartidas de manera lógica",
+    "Independencia de datos con accesos eficientes",
+    "Consta de una autonomía total y replicación"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "Cuáles son los tipos de JOINS que se manejan dentro de SQL Server:",
+  opciones: [
+    "Full Join, Cross Join, Inner Join, Left Join",
+    "Combinación interna, combinación cruzada, combinación externa",
+    "Consultas externas e internas",
+    "Manejo del lenguaje DDL Y DML"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "Cuál es el número máximo de Triggers que puede tener una tabla:",
+  opciones: [
+    "Dos Triggers",
+    "Tres Triggers",
+    "Un trigger",
+    "Trabaja en subniveles"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Base de Datos II",
+  pregunta: "Qué tipos de funciones se manejan dentro de SQL server:",
+  opciones: [
+    "Funciones definidas por el usuario, funciones escalares, funciones integradas",
+    "Funciones escalares y regulares",
+    "Funciones escalares, tables",
+    "Funciones integradas, funciones regulares, funciones temporales"
+  ],
+  respuesta: 0
 }
 
 ];
+
+
+
 
