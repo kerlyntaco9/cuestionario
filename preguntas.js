@@ -1124,9 +1124,593 @@ const preguntas = [
     "Funciones integradas, funciones regulares, funciones temporales"
   ],
   respuesta: 0
+}, 
+
+// Bloque: Proceso de Negocios
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "De las siguientes razones, ¿Cuál pertenece a las principales fallas para la implementación del BPM?",
+  opciones: [
+    "Resistencia por los Usuarios Finales y las partes interesadas.",
+    "Falta de experiencia en la implementación de procesos BPM.",
+    "Falta de recursos de infraestructura tecnológica para la implementación del BPM.",
+    "Perdida de liderazgo del equipo de TI."
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "¿Cuál de las siguientes opciones no pertenece a los pasos del enfoque simple de un proyecto con BPM?",
+  opciones: [
+    "Definir el problema",
+    "Analizar",
+    "Observar",
+    "Diseñar el modelo"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "¿Por qué es crítico observar a los usuarios para el éxito del proyecto?",
+  opciones: [
+    "Porque es la forma de obtener una mayor comprensión del proceso y donde se puede comenzar a determinar donde los usuarios se están desviando de los retos del proceso.",
+    "Porque se quiere asegurar que los usuarios son parte de los mapas de dirección a los objetivos, para evitar desviarse por los cambios que se realizan.",
+    "Porque los usuarios y su retroalimentación nos van a permitir comenzar con la etapa de definición del problema de nuestro proceso del BPM",
+    "Porque nos va a permitir saber que tecnologías necesitamos implementar en nuestro proceso de BPM."
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "¿Cuál de las siguientes opciones no pertenece a los 7 pasos para el éxito de las BPMs?",
+  opciones: [
+    "Diseñar y mejorar",
+    "Simular y optimizar",
+    "Investigar y desarrollar",
+    "Analizar y ordenar"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "La definición “A menudo existe una visibilidad insuficiente para los propietarios del negocio en los procesos ejecutables, haciendo difícil alinear los cambios culturales y de organización. Pertenece al reto de:",
+  opciones: [
+    "Errores en la traducción y sincronización del modelo",
+    "Falta de Transparencia",
+    "Error de uso de recursos",
+    "Falta de comunicación entre negocio y TI"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Fenómeno que ofrece oportunidades en términos de empleo, crecimiento y competitividad, pero debemos fijarnos en las turbulencias que pueden ocurrir antes los acontecimientos que ocurran en cualquier lugar del mundo porque pueden afectar directa o indirectamente a cada negocio.",
+  opciones: [
+    "Crecimiento exponencial de la empresa",
+    "Globalización de los mercados",
+    "Monopolio del mercado",
+    "Economía digital"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "El objetivo de esta fase es obtener el Modelo de Funcionamiento de los procesos, transformándolos desde la visión lógica a la visión física.",
+  opciones: [
+    "Modelización lógica",
+    "Diseño preliminar",
+    "Diseño BPM",
+    "Diseño de TI"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Piense que usted quiere acelerar un 50% la primera etapa de los proyectos BPM para su negocio. ¿Qué metodología decide implementar?",
+  opciones: [
+    "Metodología en de Gestión Industrial",
+    "Metodología para la Gestión por Procesos",
+    "Metodología para la Gestión del Cambio",
+    "Metodología BPM:RAD"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Su sistema de producción tiene muchas fallas y afecta de manera directa a su proceso de negocio. Decide implementar Sesiones RAD en su empresa, ¿Qué beneficio esperaría obtener?",
+  opciones: [
+    "Identificar a los trabajadores problemáticos",
+    "Fomentar el trabajo en equipo",
+    "Mejorar las tecnologías de producción",
+    "Mejorar las ventas"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Necesita contratar una persona para su empresa, que le permita conocer y entender los procesos, datos, reglas de negocio, requerimientos, problemas y oportunidades de mejora, además de las metas y objetivos del negocio. ¿Qué perfil busca?",
+  opciones: [
+    "Analista Modelizador",
+    "Expertos de negocio",
+    "Analistas de Procesos",
+    "Analista de resultados"
+  ],
+  respuesta: 2
+},
+
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Usted quiere mejorar la calidad y hacer crecer su negocio. ¿En qué activo de su empresa se enfocaría en primer lugar?",
+  opciones: [
+    "Mejora de los procesos de negocio",
+    "Incrementar el uso de la información / analíticas",
+    "Mejorar la eficiencia de los trabajadores",
+    "Crear nuevas capacidades"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "¿Qué es una actividad de tipo loop en un proceso BPMN?",
+  opciones: [
+    "Es una actividad que se va a repetir tantas veces hasta que se cumpla o no se cumpla la condición especificada.",
+    "Es una actividad que se ejecuta en forma simultánea, tantas veces como instancias existan.",
+    "Es una actividad ejecutada por una persona, cuyo control no lo lleva un sistema de workflow o Process Engine",
+    "Es una actividad que sólo funciona bajo el principio «todo o nada», es decir o todos los pasos están correctos o no se debe hacer nada"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Del marco estructural de las BPMN, ¿Qué podemos encontrar en el nivel 3?",
+  opciones: [
+    "Modelo descriptivo",
+    "Modelo operativo",
+    "Modelo técnico y especificaciones para el desarrollo",
+    "Implementación"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Proceso de Negocios",
+  pregunta: "Describe la secuencia temporal y lógica en el cual se combinan los elementos de flujo, es decir las actividades, eventos y Gateways. Es también la trayectoria del proceso por el cual marcha el token.",
+  opciones: [
+    "Actividad",
+    "Evento de inicio de proceso",
+    "Flujo de secuencia",
+    "Decisión"
+  ],
+  respuesta: 2
+},
+
+// Bloque: Redes de Computadoras
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Un router corresponde a.........",
+  opciones: [
+    "Un medio de transmisión",
+    "Un dispositivo de encaminamiento",
+    "Un cliente",
+    "Un servidor"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Una topología de red es:",
+  opciones: [
+    "Las conexiones físicas de los dispositivos de red",
+    "La forma en la que se comunican los dispositivos de red",
+    "Puntos de conexión de los nodos de una red",
+    "Forma de una red, y cómo están cableados todos los nodos (puntos) de una red."
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Es la topología más económica debido a que utiliza mucho menos cable que las otras topologías y, por tanto, emplean menos material y necesitan menos mano de obra para su instalación.",
+  opciones: [
+    "Topología en bus",
+    "Topología en anillo",
+    "Topología en estrella",
+    "Topología árbol"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Se quiere instalar un cable que permita transmitir 100Mbps en una red. ¿De las siguientes opciones cuál elegiría usted?",
+  opciones: [
+    "1000Base-T",
+    "10Base-2",
+    "100Base-TX",
+    "10Base-T"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Se necesita implementar una red inalámbrica interna, entre dos dispositivos que se encuentran separados 65 metros entre sí, se debe tener una tasa de transferencia de 20Mbps y una frecuencia de 2Ghz. ¿Qué protocolo de comunicación debería utilizar?",
+  opciones: [
+    "802.11a",
+    "802.11b",
+    "802.11g",
+    "802.11n"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Una de las razones para utilizar un estándar en redes es:",
+  opciones: [
+    "Los productos de diferentes fabricantes que cumplen los estándares son totalmente compatibles y, por tanto, pueden comunicarse entre ellos sin necesidad de utilizar adaptadores.",
+    "Que las empresas no puedan crear e investigar sobre nuevos estándares.",
+    "Que solo las empresas que realizan estos estándares puedan fabricar productos de redes.",
+    "Para poder conectar los computadores dentro de una red."
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "De los siguientes términos, ¿Cuál se relaciona a la capa física?",
+  opciones: [
+    "Bit",
+    "Paquete",
+    "Trama",
+    "Empaquetado"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Si necesito hacer una conexión de 15Km sin repetidores de señal, ¿Qué tipo de cable debería utilizar?",
+  opciones: [
+    "Cable coaxial",
+    "Fibra óptica",
+    "Par trenzado",
+    "Cable UTP"
+  ],
+  respuesta: 1
+},
+// Bloque: Redes de Computadoras
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Esta capa controla las operaciones de la subred. Un aspecto clave del diseño es determinar cómo se enrutan los paquetes desde su origen a su destino.",
+  opciones: [
+    "Capa física",
+    "Capa de transporte",
+    "Capa de aplicación",
+    "Capa de red"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Si necesito conectar dos computadores entre sí, ¿Qué tipo de cable debo utilizar?",
+  opciones: [
+    "Directo o punto a punto",
+    "Cruzado",
+    "Cable coaxial",
+    "Ninguno de los anteriores"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "¿Cuál de las siguientes es una función de la capa de enlace de datos?",
+  opciones: [
+    "Es la encargada de dividir el flujo de bits en tramas separadas y calcular la suma de verificación de cada trama.",
+    "Se encarga de aceptar un flujo de bits puros e intentar entregarlo al destino",
+    "Cuando llega una trama a un enrutador, el hardware la examina para verificar si está libre de errores.",
+    "Durante la inicialización, la capa de enlace de datos asigna a cada módem una minirranura a fin de utilizarla para solicitar el ancho de banda ascendente."
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "¿Cuál de los siguientes protocolos no pertenece a la capa de transporte?",
+  opciones: [
+    "TCP",
+    "ARP",
+    "UDP",
+    "RTP"
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Redes de Computadoras",
+  pregunta: "Se debe levantar el servicio de control de dialogo entre dispositivos, ¿en qué capa del modelo OSI se debe implementar?",
+  opciones: [
+    "Capa de sesión",
+    "Capa física",
+    "Capa de transmisión",
+    "Capa de aplicación"
+  ],
+  respuesta: 0
+},
+
+
+// Bloque: Redes de Computadoras II
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Mencione cuál de las siguientes no pertenece a formas de comercio electrónico",
+  opciones: [
+    "Negocio a consumidor",
+    "Gobierno a consumidor",
+    "Igual a Igual",
+    "Consumidor a igual"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "A la conexión de dos o más redes se le conoce como, señale la opción correcta:",
+  opciones: [
+    "Interred",
+    "Difusión",
+    "Punto a punto",
+    "Multidifusión"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "¿Cuál de las siguientes corresponde a la definición de LAN?",
+  opciones: [
+    "Permiten a los dispositivos comunicarse dentro del rango de una persona.",
+    "Son redes de propiedad privada que operan dentro de un solo edificio, como una casa, oficina o fábrica.",
+    "Cubre toda una ciudad",
+    "Abarca una extensa área geográfica, por lo general un país o continente."
+  ],
+  respuesta: 1
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Al servicio sin conexión no confiable (que significa sin confirmación de recepción) se le denomina:",
+  opciones: [
+    "Datagramas",
+    "Spammers",
+    "Voz sobre IP",
+    "Conmutación de almacenamiento y envío"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Es un conjunto de reglas que rigen el formato y el significado de los paquetes o mensajes que intercambian las entidades iguales en una capa.",
+  opciones: [
+    "Servicio",
+    "Implementación",
+    "Protocolo",
+    "Negocio"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Transformar un medio de transmisión puro en una línea que esté libre de errores de transmisión corresponde a:",
+  opciones: [
+    "Capa de enlace de datos",
+    "Capa de red",
+    "Capa de transporte",
+    "Capa de sesión"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "La idea detrás del enrutamiento por estado del enlace es bastante simple y se puede enunciar en partes. Cada enrutador debe realizar lo siguiente para hacerlo funcionar, señale cuál no pertenece:",
+  opciones: [
+    "Descubrir a sus vecinos y conocer sus direcciones de red.",
+    "Establecer la métrica de distancia o de costo para cada uno de sus vecinos",
+    "Construir un paquete que indique todo lo que acaba de aprender",
+    "Detectar fallas eléctricas que se presentan en el enrutador"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Señale la respuesta incorrecta. La conmutación de circuitos requiere pasar por tres fases para cada comunicación:",
+  opciones: [
+    "Establecimiento de llamadas",
+    "Comunicación",
+    "Liberación de recursos",
+    "Interfaz"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Señale la respuesta correcta: es un acrónimo de modulator-demodulator, que se refiere a su función: modular (generar señales audibles según los valores de los bits) y demodular (generar bits a partir de las señales que recibe de la red telefónica).",
+  opciones: [
+    "Módem",
+    "Modulador",
+    "Redes de datos",
+    "Conmutación de paquetes"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "¿Cuál de las siguientes no pertenece a la topología de LAN?",
+  opciones: [
+    "Topología en estrella.",
+    "Topología en bus.",
+    "Topología en anillo.",
+    "Topología en planetas"
+  ],
+  respuesta: 3
+},
+// Bloque: Redes de Computadoras II
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "¿Cuál de estos no pertenece a los tres modos de trabajo del repetidor?",
+  opciones: [
+    "Modo escucha",
+    "Modo de transmisión",
+    "Modo cortocircuito",
+    "Modo habla"
+  ],
+  respuesta: 2
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "En general, los protocolos de acceso al medio se pueden clasificar en grandes grupos, ¿cuál de los siguientes no pertenece?",
+  opciones: [
+    "Control de acceso al medio estático",
+    "Control de acceso al medio dinámico (centralizado o distribuido)",
+    "Control de acceso al medio aleatorio",
+    "Control de acceso al medio no aleatorizado"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "De hecho, podríamos considerar que el modelo de la red Internet consta sólo de cuatro partes o niveles, señale la respuesta incorrecta:",
+  opciones: [
+    "Por debajo del IP",
+    "El IP",
+    "El TCP",
+    "Por encima del IP"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Realiza el control de errores en la cabecera, es responsabilidad de los usuarios del IP (TCP, UDP, etc.) el control de los posibles errores en su contenido:",
+  opciones: [
+    "Checksum",
+    "Dirección",
+    "Origen",
+    "Fragmentación"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "La manera de conocer las principales características de la trama Ethernet es ver los diferentes campos que la forman. Indique la incorrecta:",
+  opciones: [
+    "Preámbulo",
+    "Dirección de origen",
+    "Tipo",
+    "Puerto"
+  ],
+  respuesta: 3
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "¿Qué significa HTML?",
+  opciones: [
+    "Lenguaje de Marcado de Hipertexto",
+    "Lenguaje de Menú de Hipertexto",
+    "Lenguaje de Manual de Hipófisis",
+    "Lenguaje de Mercado de Hipnosis"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "En las páginas web las etiquetas <b> e <i> se usan para entrar en modo:",
+  opciones: [
+    "Negritas",
+    "Cursiva",
+    "Subrayado",
+    "Tamaño 12"
+  ],
+  respuesta: 0 // o también correcto B según aclaraste
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Al nacer las redes inalámbricas existían muchos problemas ya que cada una manejaba sus propios estándares. ¿Cuál es el estándar utilizado por la IEEE para las redes inalámbricas?",
+  opciones: [
+    "802.11",
+    "808.01",
+    "903.5",
+    "969.9"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "El propósito de la capa física es:",
+  opciones: [
+    "Transportar un flujo de datos puro de una máquina a otra",
+    "La comunicación fiable a través de circuitos y cortocircuitos",
+    "Proporcionar los mecanismos para controlar el diálogo entre las aplicaciones",
+    "La que se encarga de la representación de la información"
+  ],
+  respuesta: 0
+},
+
+{
+  materia: "Redes de Computadoras II",
+  pregunta: "Los cables de fibra óptica están hechos de:",
+  opciones: [
+    "Arena",
+    "Cobre",
+    "Plástico",
+    "Policarbonato"
+  ],
+  respuesta: 2
 }
 
 ];
+
+
+
+
+
+
+
+
+
+
 
 
 
