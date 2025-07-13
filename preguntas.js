@@ -1740,7 +1740,7 @@ const preguntas = [
     pregunta: "De las siguientes opciones, ¿Cuál es una salida voluntaria de un proceso?",
     opciones: [
       "Error fatal",
-      "Eliminado por otro proceso3",
+      "Eliminado por otro proceso",
       "Salida por error",
       "Error del sistema central"
     ],
@@ -1799,7 +1799,7 @@ const preguntas = [
       "Realizar una partición del disco duro e instalar el nuevo sistema operativo en dicho espacio de memoria.",
       "Ninguna de las opciones es adecuada"
     ],
-    respuesta: 1
+    respuesta: 2
   },
   {
     materia: "Sistemas Operativos",
@@ -1854,7 +1854,7 @@ const preguntas = [
       "Sistemas interactivos",
       "Sistemas de tiempo real"
     ],
-    respuesta: 1
+    respuesta: 0
   },
   {
     materia: "Sistemas Operativos",
@@ -1943,7 +1943,7 @@ const preguntas = [
   materia: "Arquitectura de Computadoras",
   pregunta: "¿Cuál es la latencia promedio en ns de una memoria RAM de 3200MT/s y de grado. CL12?",
   opciones: ["7.2 ns", "7.5 ns", "6.88 ns", "7.14 ns"],
-  respuesta: 0
+  respuesta: 1
 },
 {
   materia: "Arquitectura de Computadoras",
@@ -1994,7 +1994,7 @@ const preguntas = [
     "Interrupciones de programa",
     "Ninguna de las respuestas es correcta"
   ],
-  respuesta: 2
+  respuesta: 0
 },
 {
   materia: "Arquitectura de Computadoras",
@@ -2094,17 +2094,7 @@ const preguntas = [
   opciones: ["WPAN (Wireless Personal Area Network)", "WLAN (Wireless Local Area Network)", "WWAN (Wireless Wide Area Network)", "WMAN (Wireless Metropolitan Area Network)"],
   respuesta: 2
 },
-{
-  materia: "Seguridad Informática",
-  pregunta: "Señale la respuesta incorrecta. El establecimiento de la conexión en WPA2 consta de cuatro fases:",
-  opciones: [
-    "El acuerdo sobre la política de seguridad.",
-    "La autenticación por medio de 802.1x (utilizando RADIUS o EAP).",
-    "La generación y distribución de claves",
-    "Para entornos pequeños además permite usar el método PSK."
-  ],
-  respuesta: 3
-},
+
 {
   materia: "Seguridad Informática",
   pregunta: "Señale la respuesta correcta con respecto al siguiente concepto: habilidad para determinar las acciones individuales de un usuario dentro del sistema",
