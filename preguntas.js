@@ -1698,7 +1698,432 @@ const preguntas = [
     "Policarbonato"
   ],
   respuesta: 2
+},
+
+
+  // Bloque: Sistemas Operativos
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "¿Qué es un sistema operativo?",
+    opciones: [
+      "Es el software encargado de resolver problemas para los usuarios.",
+      "Es un grupo de programas de proceso con las rutinas de control necesarias para mantener continuamente operativos dichos programas.",
+      "Son compiladores, editores, intérpretes de comandos.",
+      "Es un software que permite la gestión de la BIOS"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Dan servicio a varios usuarios a la vez a través de una red y les permiten compartir los recursos de hardware y de software.",
+    opciones: [
+      "Sistemas operativos de servidores.",
+      "Sistemas operativos de cliente.",
+      "Sistemas operativos de multiprocesadores.",
+      "Sistemas operativos de computadoras personales."
+    ],
+    respuesta: 0
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Hay cuatro eventos principales que provocan la creación de procesos. ¿Cuál de los siguientes no es uno de ellos?",
+    opciones: [
+      "El arranque del sistema.",
+      "Una petición de usuario para crear un proceso.",
+      "El inicio de un trabajo por lotes.",
+      "La ejecución de una interrupción."
+    ],
+    respuesta: 3
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "De las siguientes opciones, ¿Cuál es una salida voluntaria de un proceso?",
+    opciones: [
+      "Error fatal",
+      "Eliminado por otro proceso3",
+      "Salida por error",
+      "Error del sistema central"
+    ],
+    respuesta: 2
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Proceso que consiste en primero escribir el bloque en la unidad, y después volver a leerlo para verificar que se haya escrito correctamente",
+    opciones: [
+      "Escrituras estables",
+      "Lecturas estables",
+      "Recuperación de fallas",
+      "Escritura y lectura estable"
+    ],
+    respuesta: 0
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Cuando el usuario interactúa con la Interfaz gráfica del sistema operativo, estamos hablando de:",
+    opciones: [
+      "El Shell",
+      "El GUI",
+      "El DOS",
+      "El CMD"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Las llamadas a las funciones Win32 se conocen en forma colectiva como:",
+    opciones: [
+      "NT Win32",
+      "AP Win32",
+      "WOW 32",
+      "API Win32"
+    ],
+    respuesta: 3
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Está trabajando en un sistema operativo LINUX, y oprimió una tecla para el vaciado de núcleo. ¿Qué señal del control de proceso se envía?",
+    opciones: [
+      "SIGKILL",
+      "SIGQUIT",
+      "SIGTERM",
+      "SIGUSR2"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Necesita probar un sistema operativo diferente al que tiene en su computador de trabajo, necesita acceder a todos los recursos del computador y que funcione de manera rápida y fluida, además de instalar algunos recursos para gestionar el uso de software. ¿Cuál es la mejor opción?",
+    opciones: [
+      "Desinstalar su sistema operativo actual y colocar el nuevo.",
+      "Instalar una máquina virtual y revisar el funcionamiento del sistema operativo.",
+      "Realizar una partición del disco duro e instalar el nuevo sistema operativo en dicho espacio de memoria.",
+      "Ninguna de las opciones es adecuada"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "En un computador con un sistema operativo Windows, deja de funcionar uno de los puertos USB. ¿Qué decide hacer para arreglarlo?",
+    opciones: [
+      "Desarmar el computador para revisar si el puerto esta dañado",
+      "Ir al administrador de dispositivos, revisar el estado del terminal y actualizar los drivers de ser necesario",
+      "Ejecutar el antivirus por si hubo un ataque mediante una memoria USB.",
+      "Conectar otra memoria USB de menor tamaño"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "Un cliente que tiene un computador con un procesador de 1.5 GHz de 64 bits, una memoria RAM de 1 GB, y un disco duro de 128 GB. ¿Qué sistema operativo le recomienda?",
+    opciones: [
+      "Windows 10",
+      "Ubuntu 20.04",
+      "Ubuntu 10.04",
+      "Windows 8"
+    ],
+    respuesta: 2
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "¿Cuáles son los dos objetivos principales del diseño de E/S para los sistemas operativos?",
+    opciones: [
+      "Eficiencia y eficacia",
+      "Eficiencia y generalidad",
+      "Tiempos de respuesta y generalidad",
+      "Compatibilidad y tiempo de respuesta"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "¿Cuál de los siguientes eventos principales no pertenece a la creación de procesos?",
+    opciones: [
+      "El arranque del sistema.",
+      "Creación de un encabezado para tareas.",
+      "El inicio de un trabajo por lotes.",
+      "Una petición de usuario para crear un proceso."
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "¿A qué sistemas de algoritmos de planificación pertenecen las siguientes metas? Rendimiento - Maximizar el número de trabajos por hora Tiempo de retorno - Minimizar el tiempo entre la entrega y la terminación Utilización de la CPU - Mantener ocupada la CPU todo el tiempo",
+    opciones: [
+      "Sistemas de procesamiento por lotes",
+      "Todos los sistemas",
+      "Sistemas interactivos",
+      "Sistemas de tiempo real"
+    ],
+    respuesta: 1
+  },
+  {
+    materia: "Sistemas Operativos",
+    pregunta: "¿Cuál de los siguientes no es un atributo de un archivo?",
+    opciones: [
+      "Longitud de registro",
+      "Propietario",
+      "Contraseña",
+      "Longitud de bandera"
+    ],
+    respuesta: 3
+  },
+
+  // Bloque: Arquitectura de Computadoras
+
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "¿Cuál de los siguientes elementos no pertenece a la arquitectura básica de una computadora?",
+  opciones: ["CPU", "RAM", "Tarjeta de video", "Entradas y salidas"],
+  respuesta: 2
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "El BIOS, el SETUP y el POST se encuentran en la memoria:",
+  opciones: ["ROM", "RAM", "DDR4", "DDR3"],
+  respuesta: 0
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Es un puerto de propósito dual del computador en las terminales 10-17",
+  opciones: ["Puerto1", "Puerto 0", "Puerto 3", "Puerto 4"],
+  respuesta: 2
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Es el cerebro del computador y se encarga de realizar todas las operaciones aritméticas y lógicas del sistema",
+  opciones: ["Memoria RAM", "Chip Set", "La tarjeta madre", "Unidad Central de procesamiento CPU"],
+  respuesta: 3
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "¿Qué funciones cumple la fuente de poder del computador?",
+  opciones: [
+    "Transformación, enfriamiento, filtrado y estabilización.",
+    "Transformación, rectificación, filtrado y protección.",
+    "Transformación, protección, filtrado y estabilización.",
+    "Transformación, rectificación, filtrado y estabilización."
+  ],
+  respuesta: 3
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "¿Cuáles son las dos características principales de los computadores?",
+  opciones: [
+    "La capacidad de ser programada para efectuar operaciones sobre ciertos datos sin ninguna intervención humana.  La capacidad de almacenar y recuperar datos.",
+    "La capacidad de interactuar con los seres humanos. La capacidad de operar sistemas binarios.",
+    "La capacidad de procesar datos. La capacidad de crear respuestas.",
+    "Ninguno"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Es el bus que transfiere información entre la CPU y la memoria, o entre la CPU y los dispositivos de entrada/salida.",
+  opciones: ["Bus de procesos", "Bus de control", "Bus de direcciones", "Bus de datos"],
+  respuesta: 3
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "La tasa de transferencia de las memorias DDR4 se encuentra entre:",
+  opciones: ["3133- 5266 MT/s", "2133- 4266 MT/s", "1133- 2266 MT/s", "1133- 3266 MT/s"],
+  respuesta: 1
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Es el mantenimiento que describe las actividades de limpieza de partes, conexión de periféricos e inventario que se recomienda se realice periódicamente a los equipos de cómputo.",
+  opciones: [
+    "Mantenimiento correctivo de Software",
+    "Mantenimiento predictivo de Hardware",
+    "Mantenimiento preventivo de Software",
+    "Mantenimiento preventivo de Hardware"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "¿Cuál es la latencia promedio en ns de una memoria RAM de 3200MT/s y de grado. CL12?",
+  opciones: ["7.2 ns", "7.5 ns", "6.88 ns", "7.14 ns"],
+  respuesta: 0
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Se necesita acceder de la manera más rápida a los registros de memoria del procesador mediante el uso de código. ¿Qué lenguaje de programación seleccionaría?",
+  opciones: ["Lenguaje C", "Lenguaje Java", "Lenguaje Ensamblador", "Lenguaje Python"],
+  respuesta: 2
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Se está realizando un programa en ensamblador. Se necesita mover un dato a un espacio de memoria mediante una instrucción, ¿Qué código usaría?",
+  opciones: ["MOV #dato, dirección", "MOV #dirección, #dato", "MOV @dirección, #dato", "MOV dirección, #dato"],
+  respuesta: 3
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Un programa del computador evita que este funcione de una manera adecuada, debo eliminar este software. ¿Qué tipo de mantenimiento debo darle al computador?",
+  opciones: [
+    "Mantenimiento correctivo de Software",
+    "Mantenimiento predictivo de Hardware",
+    "Mantenimiento preventivo de Software",
+    "Mantenimiento preventivo de Hardware"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Un cliente solicita asesoría para la adquisición de equipo de cómputo, la tarea principal que debe realizar es modelado 3D, animación de polígonos y además renderizado. ¿Qué componente del computador indicado considera que es más importante?",
+  opciones: ["Tarjeta de video", "Memoria Cache", "Almacenamiento", "La pantalla"],
+  respuesta: 0
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Son registros para almacenar números enteros",
+  opciones: [
+    "Registro de propósito específico",
+    "Registro de propósito general",
+    "Registro de coma flotante",
+    "Registro de datos"
+  ],
+  respuesta: 1
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Son interrupciones que surgen debido a la utilización ilegal o errónea de una instrucción o datos, también se denominan trampas.",
+  opciones: [
+    "Interrupciones internas",
+    "Interrupciones externas",
+    "Interrupciones de programa",
+    "Ninguna de las respuestas es correcta"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "Una importante característica de este tipo de puerto es la sencillez con la que se instala un dispositivo. Tan sólo hay que conectar un extremo del cable al periférico, y el extremo opuesto se inserta directamente al puerto, situado en la parte exterior del PC.",
+  opciones: ["Puerto paralelo", "Puerto USB", "Puerto en serie", "Puerto UART"],
+  respuesta: 1
+},
+{
+  materia: "Arquitectura de Computadoras",
+  pregunta: "En general, a más dispositivos conectados al bus:",
+  opciones: [
+    "Obliga a tratar este bus como una línea de transmisión",
+    "Efectúa cálculos de acuerdo con una secuencia de operaciones preestablecida",
+    "Mayor es el retardo de propagación",
+    "Menor la cantidad de carga para el procesador."
+  ],
+  respuesta: 2
+},
+
+
+// Bloque: Seguridad Informática
+
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta correcta con respecto a alguien que viola la seguridad de un sistema de forma similar a un hacker, solo que ilegalmente y con diferentes fines...",
+  opciones: ["Cracker", "Newbie", "Hacker", "Phreaker"],
+  respuesta: 0
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "De acuerdo con la estrategia de backups, señale cuál de las siguientes no se considera una modalidad de operación:",
+  opciones: ["Modalidad full", "Modalidad incremental", "Modalidad diferencial", "Modalidad total"],
+  respuesta: 3
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta incorrecta con respecto a los pasos de la Metodología de investigación:",
+  opciones: ["Identificación", "Preservación", "Análisis", "Informe técnico"],
+  respuesta: 1
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Seleccione la respuesta correcta con respecto al concepto utilizado en un sinfín de disciplinas y se refiere a la búsqueda de debilidades en distintos tipos de sistemas:",
+  opciones: ["Evaluación de vulnerabilidades", "Error de protocolo", "Errores de configuraciones", "Ataques a las aplicaciones"],
+  respuesta: 0
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta incorrecta con respecto a las etapas de Penetration Test divergen:",
+  opciones: ["Fase de reconocimiento", "Fase de escaneo", "Fase de eliminación", "Fase de enumeración de un sistema"],
+  respuesta: 2
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta respecto con respecto al siguiente concepto: el estudio de métodos automáticos para el reconocimiento de personas basado en rasgos de conducta o físicos",
+  opciones: ["Medidas de aceptación", "Biometría", "Tasa de procesamiento", "Tiempo de evaluación"],
+  respuesta: 1
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Para captar la huella se utilizan distintos métodos, excepto uno de los siguientes:",
+  opciones: ["Ópticos", "Capacitivos", "Ultrasonido", "Alarma"],
+  respuesta: 3
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale cuáles son las amenazas a la seguridad física naturales:",
+  opciones: ["Fuego y terremoto", "Espionaje y Sabotaje", "Fuego y espionaje", "Terremoto y sabotaje"],
+  respuesta: 0
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Las normativas clasifican el riesgo para poder adecuar los medios de prevención. En Estados Unidos, ¿cuál de los siguientes pertenece a la clase B?",
+  opciones: [
+    "Combustibles metálicos (magnesio, titanio, potasio, sodio, mercurio, etcétera).",
+    "Fuego eléctrico sobre materiales e instalaciones o equipos (cortocircuito, fallas en cables).",
+    "Combustibles líquidos (aceites, nafta, grasas, ceras, pinturas, etcétera).",
+    "Combustibles comunes sólidos (madera, papel, telas, gomas, entre otros)."
+  ],
+  respuesta: 2
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "La técnica de encoding, o codificación de caracteres, uno de los más importantes ASCII que puede codificar:",
+  opciones: ["Codifica 128 símbolos", "Codifica 230 símbolos", "Codifica 50 símbolos", "Codifica 8 símbolos"],
+  respuesta: 0
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta incorrecta con respecto a las técnicas de ataque que se pueden analizar en la infraestructura de redes:",
+  opciones: ["Sniffing", "Spoofing", "Poisoning", "Broadcasting"],
+  respuesta: 3
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la correcta con respecto a las redes inalámbricas de mayor alcance:",
+  opciones: ["WPAN (Wireless Personal Area Network)", "WLAN (Wireless Local Area Network)", "WWAN (Wireless Wide Area Network)", "WMAN (Wireless Metropolitan Area Network)"],
+  respuesta: 2
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta incorrecta. El establecimiento de la conexión en WPA2 consta de cuatro fases:",
+  opciones: [
+    "El acuerdo sobre la política de seguridad.",
+    "La autenticación por medio de 802.1x (utilizando RADIUS o EAP).",
+    "La generación y distribución de claves",
+    "Para entornos pequeños además permite usar el método PSK."
+  ],
+  respuesta: 3
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta correcta con respecto al siguiente concepto: habilidad para determinar las acciones individuales de un usuario dentro del sistema",
+  opciones: ["Trazabilidad", "Privacidad", "No repudio", "Disponibilidad"],
+  respuesta: 0
+},
+{
+  materia: "Seguridad Informática",
+  pregunta: "Señale la respuesta correcta con respecto a los controles detectivos en función del momento del incidente:",
+  opciones: ["Guardias de seguridad", "Concientización", "Antivirus", "Políticas de seguridad"],
+  respuesta: 2
 }
+
+
+
+
+
+
+
 
 ];
 
