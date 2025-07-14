@@ -2106,7 +2106,125 @@ const preguntas = [
   pregunta: "Señale la respuesta correcta con respecto a los controles detectivos en función del momento del incidente:",
   opciones: ["Guardias de seguridad", "Concientización", "Antivirus", "Políticas de seguridad"],
   respuesta: 2
+},
+
+// Bloque: Auditoría Informática
+
+{
+  materia: "Auditoría Informática",
+  pregunta: "¿Cuál de los siguientes no pertenece funciones de la sección informática?",
+  opciones: ["Instalación de hardware y software", "Obtención de respaldos", "Documentación de aplicaciones", "Solventar perdidas"],
+  respuesta: 3
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "¿Cuántos respaldos de información debe mantener la sección informática?",
+  opciones: ["Un respaldo", "Dos respaldos", "Tres respaldos", "Cuatro respaldos"],
+  respuesta: 2
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale la opción incorrecta que no es parte de las políticas y procedimientos contables:",
+  opciones: ["Desembolsos de caja", "Ventas y cuentas por cobrar", "Informes preparados para la utilización del plan de cuentas", "Inventarios"],
+  respuesta: 2
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale la información incorrecta con respecto a evaluar sistemas operacionales para obtener información que proporcione:",
+  opciones: ["Resistencia", "Seguridad y control", "El uso eficiente de los recursos", "El grado de efectividad en satisfacer las necesidades del usuario"],
+  respuesta: 0
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "¿Cuál de los siguientes es una respuesta correcta con respecto a palabras claves y códigos secretos?",
+  opciones: [
+    "Controlar y variar las claves con regularidad",
+    "Ninguno usuario puede tener claves de acceso",
+    "Cada grupo debe ser responsables en forma grupal de uso de las claves",
+    "Evitar el cambio de claves ya que esto puede ocasionar olvidos"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale la respuesta correcta con respecto a la decisión de auditoria operativa:",
+  opciones: [
+    "Es la comprobación o examen de operaciones financieras, administrativas, económicas y de otra índole...",
+    "Es el examen posterior, profesional, objetivo y sistemático de la totalidad o parte de las operaciones o actividades...",
+    "Se ocupa de analizar la actividad que se conoce como técnica de sistemas en todas sus facetas",
+    "La acción de planear las actividades permite al individuo fijarse metas..."
+  ],
+  respuesta: 1
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale la respuesta incorrecta con respecto al campo de actuación del auditor:",
+  opciones: [
+    "Departamento de informática objeto de la auditoría.",
+    "Grado de sofisticación.",
+    "Tamaño.",
+    "Garantizar la seguridad física y lógica."
+  ],
+  respuesta: 3
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Mencione la respuesta incorrecta con respecto a las áreas del control interno:",
+  opciones: ["Redes y comunicaciones", "Análisis informático", "Bases de Datos", "Recursos informáticos"],
+  respuesta: 1
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Con respecto al control interno, la mayoría de las organizaciones han acometido varias iniciativas. Señale la incorrecta:",
+  opciones: [
+    "La reestructuración de los procesos empresariales.",
+    "La gestión de la calidad total.",
+    "El redimensionamiento por reducción y/o por aumento de tamaño hasta el nivel correcto.",
+    "Estabilización del comercio"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "De acuerdo a la implantación de un sistema de controles internos informáticos, para conocer la configuración del sistema es necesario documentar los detalles de la red. Señale cuál no pertenece:",
+  opciones: ["Entorno de la red", "Configuración del ordenador de base", "Controles correctivos", "Productos y herramientas"],
+  respuesta: 2
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale lo incorrecto con respecto al trabajo del auditor informático. Una adecuada planificación y supervisión del proceso metodológico de auditoría permite:",
+  opciones: ["Aprovechar el tiempo", "Organizar las actividades", "Maximizar la utilización de los recursos", "Optimizar la calidad del trabajo"],
+  respuesta: 2
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale la respuesta incorrecta con respecto a las normas para la ejecución del trabajo. Debe obtenerse evidencia suficiente y competente, mediante la aplicación de técnicas.",
+  opciones: ["Inspección", "Análisis", "Observación", "Control"],
+  respuesta: 3
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "Señale la respuesta incorrecta con respecto a la auditoría que se expresa mediante la siguiente tipología:",
+  opciones: [
+    "Por la modalidad de contratación",
+    "Por tipo de naturaleza",
+    "Por los objetos auditables",
+    "Por el alcance del trabajo"
+  ],
+  respuesta: 1
+},
+{
+  materia: "Auditoría Informática",
+  pregunta: "El siguiente concepto: Se refiere a las cualidades que debe reunir el auditor informático como ciudadano calificado y ejemplar...",
+  opciones: [
+    "Normas personales",
+    "Normas para la ejecución del trabajo.",
+    "Normas para la preparación y rendición de informes",
+    "Normas de auditoría"
+  ],
+  respuesta: 0
 }
+
 
 
 

@@ -1,11 +1,12 @@
 let indice = 0;
 let correctas = 0;
-let respuestasUsuario = new Array(preguntas.length).fill(null);
+let preguntasSeleccionadas = preguntas; // empieza con todas
+let respuestasUsuario = new Array(preguntasSeleccionadas.length).fill(null);
+
 function generarMenuNavegacion() {
   const nav = document.getElementById("navegacion");
   nav.innerHTML = "";
 
-  preguntasSeleccionadas = preguntas; // usar todas
   respuestasUsuario = new Array(preguntasSeleccionadas.length).fill(null);
 
   preguntasSeleccionadas.forEach((_, i) => {
@@ -20,12 +21,30 @@ function generarMenuNavegacion() {
   });
 }
 
+document.getElementById("filtroMateria").addEventListener("change", function () {
+  const materiaSeleccionada = this.value;
+
+  if (materiaSeleccionada === "todas") {
+    preguntasSeleccionadas = preguntas;
+  } else {
+    preguntasSeleccionadas = preguntas.filter(p => p.materia === materiaSeleccionada);
+  }
+
+  // reiniciar estado
+  indice = 0;
+  correctas = 0;
+  respuestasUsuario = new Array(preguntasSeleccionadas.length).fill(null);
+
+  generarMenuNavegacion();
+  mostrarPregunta();
+});
 
 function mostrarPregunta() {
   const contenedor = document.getElementById("contenedor");
   contenedor.innerHTML = "";
 
-  const p = preguntas[indice];
+  const p = preguntasSeleccionadas[indice];
+
   const div = document.createElement("div");
   div.className = "pregunta";
   div.innerHTML = `<h3>${indice + 1}. ${p.pregunta}</h3>`;
@@ -37,17 +56,17 @@ function mostrarPregunta() {
     // Si ya respondió, mostrar colores
     if (respuestasUsuario[indice] !== null) {
       btn.disabled = true;
-      if (i === preguntas[indice].respuesta) {
+      if (i === p.respuesta) {
         btn.classList.add("correcta");
       }
-      if (i === respuestasUsuario[indice] && i !== preguntas[indice].respuesta) {
+      if (i === respuestasUsuario[indice] && i !== p.respuesta) {
         btn.classList.add("incorrecta");
       }
     }
 
     btn.onclick = () => {
       respuestasUsuario[indice] = i;
-      if (i === preguntas[indice].respuesta) {
+      if (i === p.respuesta) {
         correctas++;
       }
       mostrarPregunta(); // recargar para reflejar colores
@@ -74,7 +93,7 @@ function mostrarBotonesNavegacion(div) {
     navDiv.appendChild(anterior);
   }
 
-  if (indice < preguntas.length - 1) {
+  if (indice < preguntasSeleccionadas.length - 1) {
     const siguiente = document.createElement("button");
     siguiente.textContent = "Siguiente";
     siguiente.id = "siguiente";
@@ -86,7 +105,7 @@ function mostrarBotonesNavegacion(div) {
   } else {
     const terminar = document.createElement("button");
     terminar.textContent = "Terminar";
-    terminar.id = "siguiente";
+    terminar.id = "terminar";
     terminar.onclick = mostrarResultadoFinal;
     navDiv.appendChild(terminar);
   }
@@ -98,9 +117,14 @@ function mostrarResultadoFinal() {
   const contenedor = document.getElementById("contenedor");
   const resultado = document.getElementById("resultado");
   contenedor.innerHTML = "";
-  resultado.innerHTML = `<h2>Tu resultado: ${respuestasUsuario.filter((r, i) => r === preguntas[i].respuesta).length} de ${preguntas.length} respuestas correctas.</h2>`;
+
+  const correctasTotales = respuestasUsuario.filter(
+    (r, i) => r === preguntasSeleccionadas[i].respuesta
+  ).length;
+
+  resultado.innerHTML = `<h2>Tu resultado: ${correctasTotales} de ${preguntasSeleccionadas.length} respuestas correctas.</h2>`;
 }
 
+// Inicializa
 generarMenuNavegacion();
 mostrarPregunta();
-
