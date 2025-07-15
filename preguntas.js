@@ -2223,7 +2223,322 @@ const preguntas = [
     "Normas de auditoría"
   ],
   respuesta: 0
+},
+ 
+
+// Bloque: Ofimática
+
+{
+  materia: "Ofimática",
+  pregunta: "¿Cuál de las siguientes herramientas no pertenece a la suite de Microsoft Office?",
+  opciones: ["Excel", "Word", "Paint", "Todas son de la suite de Microsoft Office"],
+  respuesta: 2
+},
+{
+  materia: "Ofimática",
+  pregunta: "La suite de Microsoft Office cuenta con una herramienta característica en su interfaz de usuario. Está situada en la parte superior de la ventana y agrupa las distintas opciones del programa organizadas en fichas",
+  opciones: ["Cinta de opciones", "Menú de inicio", "Acceso rápido", "Barra de herramientas"],
+  respuesta: 0
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Cuál de los siguientes tipos de programas no se considera una aplicación ofimática?",
+  opciones: [
+    "Software de gestión de bases de datos.",
+    "Software de presentaciones multimedia.",
+    "Software de procesamiento de texto.",
+    "Software de edición de vídeo."
+  ],
+  respuesta: 3
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Qué elemento de la interfaz de usuario de Office no se puede personalizar?",
+  opciones: [
+    "La cinta de opciones.",
+    "La barra de herramientas de acceso rápido.",
+    "La barra de estado.",
+    "Todos los elementos anteriores se pueden configurar."
+  ],
+  respuesta: 2
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Cuál de los siguientes elementos no está presente en la interfaz de usuario de Microsoft Office?",
+  opciones: [
+    "Cinta de opciones",
+    "Barra de vista",
+    "Grupo de opciones",
+    "Barra de herramientas de acceso rápido"
+  ],
+  respuesta: 1
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Qué método no es válido para diseñar un formulario en Word?",
+  opciones: [
+    "Mediante una plantilla.",
+    "Utilizando tabulaciones.",
+    "Añadiendo controles desde la ficha Programación.",
+    "Todas las anteriores son válidas"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Ofimática",
+  pregunta: "Al guardar un documento de Word, ¿en cuál de los siguientes formatos no es posible convertirlo?",
+  opciones: ["PDF", "JPG", "TXT", "HTML"],
+  respuesta: 1
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿En qué situación es posible tener encabezados y pies de página diferentes en un mismo documento?",
+  opciones: [
+    "Usando saltos de sección.",
+    "La primera página de cada sección puede ser diferente.",
+    "Las páginas pares e impares pueden tener encabezados y pies.",
+    "Todas las anteriores son ciertas."
+  ],
+  respuesta: 3
+},
+{
+  materia: "Ofimática",
+  pregunta: "Todas las celdas se ubican en una hoja de cálculo a partir de:",
+  opciones: [
+    "Un código único asignado por el usuario",
+    "El número de la fila seguido por la letra de la columna",
+    "La letra de la columna seguida del número de la fila",
+    "Todas las anteriores son ciertas"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Ofimática",
+  pregunta: "El formato condicional se utiliza:",
+  opciones: [
+    "Cuando se almacena una condición en una celda.",
+    "Solo se puede aplicar si la celda tiene un cero.",
+    "Cuando se pretende que el formato de una celda se adapte en función de su contenido.",
+    "No es válido para trabajar con texto."
+  ],
+  respuesta: 2
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Qué formato puedo utilizar para hacer una imagen animada de forma sencilla?",
+  opciones: ["PNG", "BMP", "JPG", "GIF"],
+  respuesta: 3
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Cuál de los siguientes formatos no es de vídeo?",
+  opciones: ["AVI", "SWF", "JPG", "MPG"],
+  respuesta: 2
+},
+{
+  materia: "Ofimática",
+  pregunta: "En el diseño de presentaciones hay que cuidar, de cara al destinatario:",
+  opciones: [
+    "El tamaño de la fuente",
+    "El color de la fuente y el color del fondo",
+    "La ubicación y el tamaño de los elementos",
+    "Todas las anteriores son ciertas"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Ofimática",
+  pregunta: "El diseño de una diapositiva sirve para que:",
+  opciones: [
+    "Todas las diapositivas tengan una apariencia común.",
+    "La distribución y alineación de los contenidos se ajuste a un esquema predeterminado.",
+    "La diapositiva tenga un contenido predefinido.",
+    "El usuario pueda automatizar la edición de la diapositiva"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Ofimática",
+  pregunta: "¿Cuál de los siguientes datos no está presente en la cabecera de un correo electrónico?",
+  opciones: [
+    "La hora de envío del mensaje.",
+    "El destinatario del mensaje.",
+    "La firma del mensaje.",
+    "El remitente del mensaje."
+  ],
+  respuesta: 2
+},
+
+
+// Bloque: Gestión de Proyectos de Software
+
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "¿La definición de proyecto?",
+  opciones: [
+    "Se trata de un conjunto de funciones administrativas que se realizan de forma secuencial. Su propósito principal es ayudar a la empresa a hacer un mejor uso de sus recursos y alcanzar sus objetivos de forma más eficiente.",
+    "Se compone de 4 etapas: planeación, organización, ejecución y control, alcanzando la meta y objetivos.",
+    "Establece sistemas de control o método a través del cual maneja etapas de crecimiento fortaleciendo lo planificado.",
+    "Ninguno"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "¿Partes de un proyecto?",
+  opciones: [
+    "Diagnóstico, diseño y ejecución",
+    "Estructura organizacional, Riesgos, Costos",
+    "Diseño, Estructura organizacional",
+    "Ninguno"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "¿Las diferencias entre programa y proyecto?",
+  opciones: [
+    "Deseamos representar los instantes clave de la Revolución Francesa, probablemente queramos resaltar eventos históricos que la acompañaron en otros países vecinos.",
+    "Funciona como un conjunto de herramientas diseñado para realizar tareas y trabajos específicos en tu computador.",
+    "Idea de una cosa que se piensa hacer y para la cual se establece un modo determinado y un conjunto de medios necesarios.",
+    "Ninguno"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "¿Identificar qué tipo de problemática se establece en el siguiente ejemplo? [...]",
+  opciones: [
+    "Problema social",
+    "Problema económico",
+    "Problema cultural",
+    "Problema jurídico"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "¿Del siguiente problema social determine el tipo de diagnóstico para ser considerado como problema?",
+  opciones: [
+    "Diagnóstico operativo",
+    "Diagnóstico económico",
+    "Diagnóstico social",
+    "Ninguno"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Partes de un cuadro de problemas",
+  opciones: [
+    "Causa general, causas, problema principal y efecto",
+    "Causas, soluciones, consecuencias",
+    "Problema principal, riesgos y operaciones",
+    "Ninguno"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Partes de un cuadro de objetivos",
+  opciones: [
+    "Causa general",
+    "Causas",
+    "Problema principal",
+    "Ninguna"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "¿Determine el concepto de presupuesto en un proyecto viable?",
+  opciones: [
+    "Un proyecto tiene viabilidad cuando tiene probabilidades de llevarse a cabo, ya que es posible hacerlo.",
+    "Es probable hacer determinado proyecto, o determinado producto porque existen las condiciones, conocimientos y tecnología para hacerlo.",
+    "Viabilidad de un asunto o un proyecto, nos referimos a qué tan probable es llevar algo a cabo, materializarlo en la realidad. ",
+    "Ninguno"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Determinar concepto de presupuesto en un proyecto no viable",
+  opciones: [
+    "Un proyecto tiene viabilidad cuando tiene probabilidades de llevarse a cabo, ya que es posible hacerlo.",
+    "Es probable hacer determinado proyecto, o determinado producto porque existen las condiciones, conocimientos y tecnología para hacerlo.",
+    "Viabilidad de un asunto o un proyecto, nos referimos a qué tan probable es llevar algo a cabo, materializarlo en la realidad. [...]",
+    "Ninguno"
+  ],
+  respuesta: 3
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Identifique el concepto de diagrama de Gantt",
+  opciones: [
+    "Consistir en una barra de entrada doble, en la cual se anotan las actividades (filas) y el tiempo de su duración (columnas), para así poder organizarlas en el tiempo.",
+    "Consiste en la organización de las actividades en base a cuáles anteceden a cuáles, aplicando para ello diagrama de flujo.",
+    "Consiste en un cronograma de actividades",
+    "Ninguna"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Delimite qué es una actividad recurrente",
+  opciones: [
+    "Cuando abres una aplicación, esta se ejecuta en el sistema operativo hasta que la cierres.",
+    "Se pueden crear del mismo modo que las actividades que se llevan a cabo una sola vez. [...]",
+    "El uso de gráficos de Gantt durante proyectos críticos le permite realizar un seguimiento del progreso del equipo.",
+    "Ninguna"
+  ],
+  respuesta: 1
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Un proyecto puede iniciar y el objetivo debe:",
+  opciones: [
+    "Estar definido",
+    "Irse construyendo mientras el proyecto avanza",
+    "Plantearse en el punto final",
+    "Generarse de acuerdo a los indicadores que se generen"
+  ],
+  respuesta: 0
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "La planificación es un proceso que comienza con:",
+  opciones: [
+    "Un ishikawa",
+    "Una misión, metas y objetivos",
+    "Un análisis FODA",
+    "Una gestión de redes"
+  ],
+  respuesta: 1
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Los componentes principales para establecer los costos de un proyecto de software son:",
+  opciones: [
+    "Presupuesto, costo y utilidad",
+    "Salario, financiamiento y formas de pago",
+    "Hardware, entrenamiento y esfuerzo",
+    "PIB, indicadores y eficiencia"
+  ],
+  respuesta: 2
+},
+{
+  materia: "Gestión de Proyectos de Software",
+  pregunta: "Para realizar un proyecto de software se deben tomar en cuenta 3 tipos de recursos:",
+  opciones: [
+    "Disruptivos, ecológicos y psicosociales",
+    "Sociales, de entorno y factibilidad",
+    "Económicos, logísticos y marketing",
+    "Humanos, hardware, software"
+  ],
+  respuesta: 3
 }
+
+
 
 
 
